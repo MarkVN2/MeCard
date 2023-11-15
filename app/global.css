@@ -2,4 +2,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/*npx tailwindcss -i ./app/global.css -o ./app/output.css --watch*/
+
+
+.card-container{
+    cursor: grab;
+    text-align: center;
+    width: fit-content;
+    aspect-ratio: 4/3;
+    background-color: hsl(0,0%,12%);
+    border-radius: 2rem;
+}
