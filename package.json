@@ -1,6 +1,6 @@
 {
   "name": "mecard",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A card about myself and what i do.",
   "main": "index.js",
   "scripts": {

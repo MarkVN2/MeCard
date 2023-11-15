@@ -9,6 +9,13 @@
     text-align: center;
     width: fit-content;
     aspect-ratio: 4/3;
-    background-color: hsl(0,0%,12%);
+    background-color: #101010;
     border-radius: 2rem;
+}
+body{
+    background: linear-gradient(250deg, #7b2ff7, #f107a3);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

@@ -6,7 +6,7 @@
   }){
     return (
       <html lang ="en">
-      <body className='bg-[#505464]' >{children}</body>
+      <body>{children}</body>
       </html>
     )
   }

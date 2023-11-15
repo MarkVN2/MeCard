@@ -1,12 +1,20 @@
 import {motion} from "framer-motion"
 import Image from 'next/image'
 import { Children, useState } from "react";
+import LangSlots from "../langs";
 
-const Card = ({greeting,profilepic,langs}) => {
+const Card = () => {
 
+    const variants ={
+    visible: { opacity: 1, x: 0 },
+    hidden: { opacity: 0, x: -100 },
+    };
     return(
         <motion.div 
-        className="grid card-container text-center m-auto p-4 relative top-40"
+        className=" card-container text-center m-auto p-4 relative top-40"
+        variants={variants}
+        initial="hidden"
+        animate="visible"
         drag
         dragConstraints={{
             top: 0,
@@ -28,14 +36,14 @@ const Card = ({greeting,profilepic,langs}) => {
                 width={180}
                 height={180}
                 ></Image>
-                {/*change this to use json later*/}
             </div>    
             
             <h1
             className="text-white m-2 p-5 text-[1.2rem]"
-            >Hello! I am Markos</h1>{/*change this to use json later*/}
-            
-               
+            >Hello! <br></br> I am Markos</h1>
+            <p></p>
+        
+            <LangSlots></LangSlots>   
         </motion.div>
     )
 }
