@@ -1,7 +1,8 @@
 import {motion} from "framer-motion"
 import Image from 'next/image'
 import { Children, useState } from "react";
-import LangSlots from "../langs";
+import Langs from "../lang";
+import LangBlock from "../langblock";
 
 const Card = () => {
 
@@ -11,7 +12,7 @@ const Card = () => {
     };
     return(
         <motion.div 
-        className=" card-container text-center m-auto p-4 relative top-40"
+        className="font-JetBrains card-container text-center m-auto p-4 relative top-40"
         variants={variants}
         initial="hidden"
         animate="visible"
@@ -42,8 +43,8 @@ const Card = () => {
             className="text-white m-2 p-5 text-[1.2rem]"
             >Hello! <br></br> I am Markos</h1>
             <p></p>
-        
-            <LangSlots></LangSlots>   
+            <LangBlock></LangBlock>
+       
         </motion.div>
     )
 }

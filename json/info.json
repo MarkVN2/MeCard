@@ -1,0 +1,45 @@
+[
+    {
+      "userId": "MVN",
+      "name": "Markos",
+      "about": "I love creating things",
+      "socials": {
+        "github": "https://github.com/markvn2",
+        "linkedin": ""
+      },
+      "langs":{
+        "css": {
+          "color":"#7e22ce",
+          "text":""
+        },
+        "html": {
+          "color":"#c2410c",
+          "text":""
+        },
+        "javascript": {
+          "color":"#eab308",
+          "text":""
+        },
+        "typescript": {
+          "color":"#3b82f6",  
+          "text":""
+        },
+        "python":{
+          "color":"#2563eb",
+          "text":""
+        },
+        "cpp": {
+          "color":"#be185d",
+          "text":""
+        },
+        "csharp": {
+          "color":"#4ade80",
+          "text":""
+        },
+        "java": {
+          "color":"#ef4444",
+          "text":""
+        }    
+      }
+    }
+  ]

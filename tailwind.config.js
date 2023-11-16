@@ -7,6 +7,9 @@ module.exports = {
   theme: {
     extend: {
       colors:{},
+      fontFamily:{
+        'JetBrains':['JetBrains Mono', 'monospace'],
+      }
     },
   },
   plugins: [],
